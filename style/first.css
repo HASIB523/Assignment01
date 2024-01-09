@@ -1,34 +1,36 @@
 /* header style */
-.header-content{
-    position: relative;
-    text-align: center;
+header{
+    background-image:linear-gradient(to bottom, rgba(1, 2, 10, 0.135), rgba(2, 0, 2, 0.251)),
+    url(../resources/Banner\ Image.png);
+    height:600px;
+    width: 1320px;
+    margin: auto;
+    background-size: cover;
+    
+}
+.header-container{
+    padding-top: 100px;
+}
+.header{
+    margin-top: 30px;
     margin-bottom: 30px;
 }
-.banner-h3{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin:60px 10px;
+.header-h3{
     color: #FFF;
     text-align: center;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    margin-bottom: 0;
+
 }
-.banner-h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 40px;
+.header-h1{
     color: #FFF;
     text-align: center;
-    font-size: 80px;
+    font-size: 72px; 
     font-weight: 900;
-    line-height: 95px
+    margin-top: 8px;
 }
+/* second style */
 .second-h1{
     color: #F00;
     text-align: center;
@@ -67,4 +69,297 @@
     width: 50%;
     margin-top: 15px;
     
+}
+
+
+/* third container style */
+.third-section{
+    background-image:linear-gradient(to left, rgba(1, 2, 10, 0), rgba(0, 0, 0, 0.66)), url(../resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    margin-top: 60px;
+    background-size:cover ;
+    border-radius: 10px;
+}
+.third-h1{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+}
+.third-des{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.third-btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:transparent;
+    border: 0;
+    border-radius: 10px;
+    
+}
+.third-container{
+    padding: 70px;
+}
+
+
+/* fourth container */
+.fourth-des{
+    color: #F00;
+    
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+.fourth-container{
+    margin-top:80px;
+    padding-top: 50px;
+}
+.fourth-h3{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+}
+.fourth-first{
+    margin: auto;
+    background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.05) , white) ;
+    text-align: center;
+    width: 1320px;
+    height: 480px;
+    margin-top:80px;
+    border-radius: 10px;
+   
+}
+.fourth-btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:#F00;
+    border: 0;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+/* fifth cointer */
+.fifth-container{
+    display: flex;
+    margin-top: 80px;
+    width: 1320px;
+    height: 480px;
+    margin: auto;
+    margin-top: 70px;
+}
+.fifth-first{
+    margin-right: 10%;
+    margin-top: 100px;
+}
+.fifth-first-h4{
+    color: #F00; 
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 30px;
+
+}
+.fifth-first-h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.fifth-first-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.fifth-last-h1{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+.fifth-last-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+.fifth-last{
+    margin-right: 50px;
+}
+.fifth-img{
+    border : 10px solid red ;
+    Border-radius : 50%;
+    Padding: 15px;
+    border: 20px 20px;
+    margin-right: 10%;
+}
+.fifth-last-img{
+    margin-top: 15px;
+    margin-left: 0px;
+}    
+
+/* seven style */
+.seven{
+    width: 1320px;
+    margin: auto;
+    margin-top: 100px;
+}
+.seven-h3{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.seven-h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.seven-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.img-tag{
+    border-radius: 16px;
+    margin: 5px 5px;
+}
+
+/* eight style */
+
+.eight{
+    width: 1320px;
+    height: 600px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 100px;
+
+  
+}
+.eight-img{
+    text-align: center;
+    margin-top: 150px;
+}
+.eight-h1{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+.eight-para{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.input{
+    width: 400px;
+    height: 50px;
+    border-radius: 50px 0px 0px 50px;
+    border: 0;
+    font-weight: 100px;
+    padding: 10px;
+}
+.primary-btn{
+    width: 300px;
+    height: 65px;
+    border-radius: 50px;
+    border: 0;
+    font-weight: 100px;
+    padding: 10px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: white;
+
+}
+.btn-subs{
+    text-align: center;
+}
+.eight-container{
+    text-align: center;
+    padding-top:1px;
+}
+
+/* nine style */
+
+.nine{
+
+    height: 600px;
+    background:#070211;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 100px;
+    color: wheat;
+    position: relative;
+    text-align: center;
+    
+}
+.nine-botom-left{
+    position:absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 50px 50px;
+}
+.nine-top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 40px 40px;
+
+}
+.nine-top-right{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 50px 50px;
+
+}
+.nine-botom-right{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 50px;
+}
+.nine-botom-right .primary{
+    
+}
+.nine-top-left3{
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.nine-top-left2{
+    margin-top: 2px;
+}
+.nine-img{
+    margin-top: 13%;
+    margin-right: 10px;
 }
