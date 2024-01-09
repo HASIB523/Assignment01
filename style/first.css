@@ -1,3 +1,7 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
 /* header style */
 header{
     background-image:linear-gradient(to bottom, rgba(1, 2, 10, 0.135), rgba(2, 0, 2, 0.251)),
@@ -6,6 +10,7 @@ header{
     width: 1320px;
     margin: auto;
     background-size: cover;
+    margin-top: 50px;
     
 }
 .header-container{
@@ -247,7 +252,8 @@ header{
     background: rgba(255, 0, 0, 0.05);
     margin: auto;
     border-radius: 20px;
-    margin-top: 100px;
+    padding-bottom: 105px;
+    margin-top: 80px;
 
   
 }
@@ -293,7 +299,7 @@ header{
 }
 .eight-container{
     text-align: center;
-    padding-top:1px;
+    
 }
 
 /* nine style */
@@ -362,4 +368,26 @@ header{
 .nine-img{
     margin-top: 13%;
     margin-right: 10px;
+}
+
+.call{
+    margin-right: 8px;
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+}
+.nine-top-left2{
+    margin-bottom: 0;
+}
+.nine-top-left3{
+    margin-top: 0px;
+
+}
+.h32{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.h33{
+    margin-top: 5px;
+    font-size: 20px;
 }
